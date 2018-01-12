@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import {environment} from '../../environments/environment';
+
 import 'rxjs/add/operator/map';
 
 @Injectable()
 export class GithubService {
   private username:string;
-
-  private access_token = "2f97a80221ecfd07fa6c0695911cd5f78a5ac9a0";
+  private access_token:string = environment.access_token;
 
   constructor(private _http:HttpClient) {
     console.log("Service is ready..");
