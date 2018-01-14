@@ -1,8 +1,9 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+//2f97a80221ecfd07fa6c0695911cd5f78a5ac9a0
+
 # compiled output
-/environment.ts
-/environment.prod.ts
+
 /tmp
 /out-tsc
 
