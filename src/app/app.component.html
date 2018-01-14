@@ -10,10 +10,11 @@
       <a class="navbar-brand" href="#">GitSearch</a>
     </div>
     <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        
+      <ul class="nav navbar-nav navbar-right">
+          <li><a routerLink='/profile' routerLinkActive='active'>Profile</a></li>
+        <li><a routerLink='/repo' routerLinkActive='active'>Repositories</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
 </nav>
-<app-profile></app-profile>
+<router-outlet></router-outlet>

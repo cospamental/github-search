@@ -11,7 +11,7 @@ export class GithubService {
   private access_token:string = environment.access_token;
 
   constructor(private _http:HttpClient) {
-    console.log("Service is ready..");
+    //console.log("Service is ready..");
     this.username = 'cospamental';
 
    }
