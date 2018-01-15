@@ -1,6 +1,19 @@
 # GitSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
+# Author
+__Pascal Oseko__
+
+# About App
+This is a git hub repository search app that allows user to search for users and also view their repositories.
+
+# Project Setup Instructions
+* __Run ng new GitSearch__
+* __Run ng generate component profile__ 
+* __Run ng generate component user__
+* __ng generate module routing__
+
+# Deployed Site
+[Git Hub Repository Search](https://cospamental.github.io/github-search/)
 
 ## Development server
 
