@@ -13,7 +13,7 @@ This is a git hub repository search app that allows user to search for users and
 * __ng generate module routing__
 
 # Deployed Site
-[Git Hub Repository Search](https://cospamental.github.io/github-search/)
+[Git Hub Repository Search](https://pascaloseko.github.io/github-search/)
 
 ## Development server
 
